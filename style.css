@@ -1,0 +1,14 @@
+html, body {
+background: pink;
+}
+
+body {
+display:flex;
+justify-content: center;
+align-items: center;
+}
+h1 {
+color: white;
+font-size: 32px;
+font-family: Helvetica, Arial, sans-serif;
+}
