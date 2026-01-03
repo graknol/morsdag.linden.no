@@ -1,10 +1,18 @@
 html, body {
-background: pink;
 box-sizing: border-box;
 height:100%;
 width:100%;
 padding: 0px;
 margin: 0px;
+/* Beautiful pastel gradient background - Animal Crossing aesthetic */
+background: linear-gradient(135deg, 
+  #FFB3D9 0%,    /* Soft pink */
+  #DDB3FF 25%,   /* Lavender */
+  #B3D9FF 50%,   /* Light blue */
+  #FFD6E8 75%,   /* Pastel pink */
+  #E0B3FF 100%   /* Purple lavender */
+);
+background-attachment: fixed;
 }
 
 body div {
@@ -14,8 +22,24 @@ align-items: center;
 width:100%;
 height:100%;
 }
+
 h1 {
-color: white;
-font-size: 32px;
-font-family: Helvetica, Arial, sans-serif;
+color: #4A3A5A;
+font-size: 42px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+font-weight: 600;
+text-align: center;
+padding: 50px;
+line-height: 1.6;
+/* Liquid glass effect */
+background: rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(20px) saturate(180%);
+-webkit-backdrop-filter: blur(20px) saturate(180%);
+border-radius: 30px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-shadow: 
+  0 8px 32px 0 rgba(255, 182, 217, 0.37),
+  inset 0 1px 1px 0 rgba(255, 255, 255, 0.5);
+/* Soft glow */
+text-shadow: 0 2px 10px rgba(255, 255, 255, 0.3);
 }
